@@ -20,5 +20,8 @@
     "morgan": "~1.9.1",
     "oracledb": "^5.4.0",
     "validator": "^13.7.0"
+  },
+  "engines": {
+    "node": "v16.x"
   }
 }
