@@ -52,7 +52,7 @@ const generateSentJWT = async (user, statusCode, res) => {
         // console.log('decoded',decoded)
         // const currentUser = await User.findById(decoded.id)
         req.user = decoded
-        // console.log('currentUser',decoded)
+        console.log('currentUser',decoded)
         next()
         
     }

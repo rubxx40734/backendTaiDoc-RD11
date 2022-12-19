@@ -12,7 +12,7 @@ router.get('/',isAuth ,async function(req, res, next) {
     password      : process.env.DATABASE_PASSWORD,
     connectString : process.env.DATABASE_CONNECT
   })
-  console.log('資料庫連線成功')
+  console.log('資料庫連線成功1122')
   const result = await connection.execute(
     `SELECT * FROM VUE_BILLTEST WHERE USERNAME = '${req.user.name}'`,
   )

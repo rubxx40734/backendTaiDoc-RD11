@@ -25,7 +25,7 @@ async function run() {
         password      : process.env.DATABASE_PASSWORD,
         connectString : process.env.DATABASE_CONNECT
       });
-      console.log('資料庫連線成功')
+      console.log('資料庫連線成功!!!')
     } catch (err) {
       console.error(err,'錯誤');
     } finally {
